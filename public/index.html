@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blox Fruits Stock</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
+    <style>
+        body {
+            background-color: rgb(58, 58, 58);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Blox fruits stock API</h1>
+    <p>This is an API that gives you a JSON file with the actual stock:</p>
+      
+    <p>Copy for the fetch: </p>
+    <pre><code class="languaje-js">
+fetch('https://blox-fruits-api.onrender.com/api/bloxfruits/stock')
+    .then(response => response.json())
+    .then((data) => {
+        // data is the JSON object
+        console.log(data);
+    })
+    .catch((error) => {
+        console.error('Error fetching data:', error);
+    });
+    </code></pre>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            // Highlight.js automatically detects and highlights code blocks
+            hljs.highlightAll();
+        });
+    </script>
+</body>
+</html>
