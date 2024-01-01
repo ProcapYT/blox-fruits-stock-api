@@ -25,8 +25,8 @@ app.get('/api/bloxfruits/stock', async (req, res) => {
 
       const imgSrc = $(element).find('.col-3.d-flex.align-items-center img').attr('src');
       const name = $(element).find('.col-3.d-flex.align-items-center').eq(1).text().trim();
-      const price = $(element).find('.col-3.d-flex.align-items-center').eq(2).text().trim();
-      const robux = $(element).find('.col-3.d-flex.align-items-center').eq(3).text().trim();
+      const price = $(element).find('.col-3.d-flex.align-items-center').eq(2).text().trim().replace(/[$]/g, '');
+      const robux = $(element).find('.col-3.d-flex.align-items-center').eq(3).text().trim().replace(/[R]/g, '');
       const countDown = $('body').find('#countdown').text()
 
       fruitInfo.imageURL = imgSrc;
