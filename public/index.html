@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blox Fruits Stock</title>
+    <title>Blox Fruits API</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
@@ -12,6 +12,14 @@
             background-color: rgb(58, 58, 58);
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             color: white;
+        }
+        .no-highlight {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+            font-family: 'Courier New', monospace;
+            color: #333;
         }
     </style>
 </head>
@@ -24,12 +32,36 @@
 fetch('https://blox-fruits-api.onrender.com/api/bloxfruits/stock')
     .then(response => response.json())
     .then((data) => {
-        // data is the JSON object
-        console.log(data);
+        const jsonData = data
+        const jsonObj = JSON.parse(jsonData)
+        console.log(JSON.stingify(jsonObj, null, 2));
     })
     .catch((error) => {
         console.error('Error fetching data:', error);
     });
+    </code></pre>
+    <p>Or copy the url:</p>
+    <pre><code class="html">
+https://blox-fruits-api.onrender.com/api/bloxfruits/stock 
+    </code></pre>
+    <br>
+    <h1>Blox fruits API</h1>
+    <p>Here is also an api for all the fruits:</p>
+    <pre><code class="languaje-js">
+fetch('https://blox-fruits-api.onrender.com/api/bloxfruits')
+    .then(response => response.json())
+    .then((data) => {
+        const jsonData = data
+        const jsonObj = JSON.parse(jsonData)
+        console.log(JSON.stingify(jsonObj, null, 2));
+    })
+    .catch((error) => {
+        console.error('Error fetching data:', error);
+    });
+    </code></pre>
+    <p>Or copy the url:</p>
+    <pre><code class="html">
+https://blox-fruits-api.onrender.com/api/bloxfruits
     </code></pre>
 
     <script>

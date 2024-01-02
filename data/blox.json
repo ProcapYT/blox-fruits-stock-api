@@ -1,0 +1,313 @@
+{
+  "Rocket": {
+    "price": 5000,
+    "robux": 50,
+    "rarity": "common",
+    "type": "natural",
+    "awakening": false,
+    "imageURL": "https://static.wikia.nocookie.net/roblox-blox-piece/images/d/d4/RocketFruit.png"
+  },
+  "Spin": {
+    "price": 7500,
+    "robux": 75,
+    "rarity": "common",
+    "type": "natural",
+    "awakening": false,
+    "imageURL": "https://static.wikia.nocookie.net/roblox-blox-piece/images/d/dc/SpinFruit.png"
+  },
+  "Chop": {
+    "price": 30000,
+    "robux": 100,
+    "rarity": "common",
+    "type": "natural",
+    "awakening": false,
+    "imageURL": "https://static.wikia.nocookie.net/roblox-blox-piece/images/5/51/ChopFruit.png"
+  },
+  "Spring": {
+    "price": 60000,
+    "robux": 180,
+    "rarity": "common",
+    "type": "natural",
+    "awakening": false,
+    "imageURL": "https://static.wikia.nocookie.net/roblox-blox-piece/images/4/46/SpringFruit.png"
+  },
+  "Bomb": {
+    "price": 80000,
+    "robux": 220,
+    "rarity": "common",
+    "type": "natural",
+    "awakening": false,
+    "imageURL": "https://static.wikia.nocookie.net/roblox-blox-piece/images/7/7d/BombFruit.png"
+  },
+  "Smoke": {
+    "price": 100000,
+    "robux": 250,
+    "rarity": "common",
+    "type": "elemental",
+    "awakening": false,
+    "imageURL": "https://static.wikia.nocookie.net/roblox-blox-piece/images/6/68/SmokeFruit.png"
+  },
+  "Spike": {
+    "price": 180000,
+    "robux": 380,
+    "rarity": "common",
+    "type": "natural",
+    "awakening": false,
+    "imageURL": "https://static.wikia.nocookie.net/roblox-blox-piece/images/2/2d/SpikeFruit.png"
+  },
+  "Flame": {
+    "price": 250000,
+    "robux": 550,
+    "rarity": "uncommon",
+    "type": "elemental",
+    "awakening": 14500,
+    "imageURL": "https://static.wikia.nocookie.net/roblox-blox-piece/images/b/b8/FlameFruit.png"
+  },
+  "Falcon": {
+    "price": 300000,
+    "robux": 650,
+    "rarity": "uncommon",
+    "type": "beast",
+    "awakening": false,
+    "imageURL": "https://static.wikia.nocookie.net/roblox-blox-piece/images/7/7d/FalconFruit.png"
+  },
+  "Ice": {
+    "price": 350000,
+    "robux": 750,
+    "rarity": "uncommon",
+    "type": "elemental",
+    "awakening": 14500,
+    "imageURL": "https://static.wikia.nocookie.net/roblox-blox-piece/images/7/74/IceFruit.png"
+  },
+  "Sand": {
+    "price": 420000,
+    "robux": 850,
+    "rarity": "uncommon",
+    "type": "elemental",
+    "awakening": 14500,
+    "imageURL": "https://static.wikia.nocookie.net/roblox-blox-piece/images/5/55/SandFruit.png"
+  },
+  "Dark": {
+    "price": 500000,
+    "robux": 950,
+    "rarity": "uncommon",
+    "type": "elemental",
+    "awakening": 14500,
+    "imageURL": "https://static.wikia.nocookie.net/roblox-blox-piece/images/c/c2/DarkFruit.png"
+  },
+  "Diamond": {
+    "price": 600000,
+    "robux": 1000,
+    "rarity": "uncommon",
+    "type": "natural",
+    "awakening": false,
+    "imageURL": "https://static.wikia.nocookie.net/roblox-blox-piece/images/6/6d/DiamondFruit.png"
+  },
+  "Light": {
+    "price": 650000,
+    "robux": 1100,
+    "rarity": "rare",
+    "type": "elemental",
+    "awakening": 14500,
+    "imageURL": "https://static.wikia.nocookie.net/roblox-blox-piece/images/f/f8/LightFruit.png"
+  },
+  "Rubber": {
+    "price": 750000,
+    "robux": 1200,
+    "rarity": "rare",
+    "type": "natural",
+    "awakening": false,
+    "imageURL": "https://static.wikia.nocookie.net/roblox-blox-piece/images/b/bc/RubberFruit.png"
+  },
+  "Barrier": {
+    "price": 800000,
+    "robux": 1250,
+    "rarity": "rare",
+    "type": "natural",
+    "awakening": false,
+    "imageURL": "https://static.wikia.nocookie.net/roblox-blox-piece/images/0/0a/BarrierFruit.png"
+  },
+  "Ghost": {
+    "price": 940000,
+    "robux": 1275,
+    "rarity": "rare",
+    "type": "natural",
+    "awakening": false,
+    "imageURL": "https://static.wikia.nocookie.net/roblox-blox-piece/images/4/4e/GhostFruit.png"
+  },
+  "Magma": {
+    "price": 960000,
+    "robux": 1300,
+    "rarity": "rare",
+    "type": "elemental",
+    "awakening": 14500,
+    "imageURL": "https://static.wikia.nocookie.net/roblox-blox-piece/images/7/73/MagmaFruit.png"
+  },
+  "Quake": {
+    "price": 1000000,
+    "robux": 1500,
+    "rarity": "legendary",
+    "type": "natural",
+    "awakening": 17000,
+    "imageURL": "https://static.wikia.nocookie.net/roblox-blox-piece/images/2/23/QuakeFruit.png"
+  },
+  "Buddha": {
+    "price": 1200000,
+    "robux": 1650,
+    "rarity": "legendary",
+    "type": "beast",
+    "awakening": 14500,
+    "imageURL": "https://static.wikia.nocookie.net/roblox-blox-piece/images/6/6e/BuddhaFruit.png"
+  },
+  "Love": {
+    "price": 1300000,
+    "robux": 1700,
+    "rarity": "legendary",
+    "type": "natural",
+    "awakening": false,
+    "imageURL": "https://static.wikia.nocookie.net/roblox-blox-piece/images/5/5a/LoveFruit.png"
+  },
+  "Spider": {
+    "price": 1500000,
+    "robux": 1800,
+    "rarity": "legendary",
+    "type": "natural",
+    "awakening": 17300,
+    "imageURL": "https://static.wikia.nocookie.net/roblox-blox-piece/images/8/82/SpiderFruit.png"
+  },
+  "Sound": {
+    "price": 1700000,
+    "robux": 1900,
+    "rarity": "legendary",
+    "type": "natural",
+    "awakening": false,
+    "imageURL": "https://static.wikia.nocookie.net/roblox-blox-piece/images/f/f4/SoundFruit.png"
+  },
+  "Phoenix": {
+    "price": 1800000,
+    "robux": 2000,
+    "rarity": "legendary",
+    "type": "beast",
+    "awakening": 18500,
+    "imageURL": "https://static.wikia.nocookie.net/roblox-blox-piece/images/1/11/PhoenixFruit.png"
+  },
+  "Portal": {
+    "price": 1900000,
+    "robux": 2000,
+    "rarity": "legendary",
+    "type":"natural",
+    "awakening": false,
+    "imageURL": "https://static.wikia.nocookie.net/roblox-blox-piece/images/e/e4/PortalFruit.png"
+  },
+  "Rumble": {
+    "price": 2100000,
+    "robux": 2100,
+    "rarity": "legendary",
+    "type": "elemental",
+    "awakening": 14500,
+    "imageURL": "https://static.wikia.nocookie.net/roblox-blox-piece/images/8/89/RumbleFruit.png"
+  },
+  "Pain": {
+    "price": 2300000,
+    "robux": 2200,
+    "rarity": "legendary",
+    "type": "natural",
+    "awakening": false,
+    "imageURL": "https://static.wikia.nocookie.net/roblox-blox-piece/images/3/3f/PainFruit.png"
+  },
+  "Blizzard": {
+    "price": 2400000,
+    "robux": 2250,
+    "rarity": "legendary",
+    "type": "elemental",
+    "awakening": false,
+    "imageURL": "https://static.wikia.nocookie.net/roblox-blox-piece/images/d/de/BlizzardFruit.png"
+  },
+  "Gravity": {
+    "price": 2500000,
+    "robux": 2300,
+    "rarity": "mythical",
+    "type": "natural",
+    "awakening": false,
+    "imageURL": "https://static.wikia.nocookie.net/roblox-blox-piece/images/2/22/GravityFruit.png"
+  },
+  "Mammoth": {
+    "price": 2700000,
+    "robux": 2350,
+    "rarity": "mythical",
+    "type": "beast",
+    "awakening": false,
+    "imageURL": "https://static.wikia.nocookie.net/roblox-blox-piece/images/d/d3/MammothFruit.png"
+  },
+  "T-Rex": {
+    "price": 2700000,
+    "robux": 2350,
+    "rarity": "mythical",
+    "type": "beast",
+    "awakening": false,
+    "imageURL": "https://static.wikia.nocookie.net/roblox-blox-piece/images/e/ea/T-RexFruit.png"
+  },
+  "Dough": {
+    "price": 2800000,
+    "robux": 2400,
+    "rarity": "mythical",
+    "type": "elemental",
+    "awakening": 18500,
+    "imageURL": "https://static.wikia.nocookie.net/roblox-blox-piece/images/9/9f/DoughFruit.png"
+  },
+  "Shadow": {
+    "price": 2900000,
+    "robux": 2425,
+    "rarity": "mythical",
+    "type": "natural",
+    "awakening": false,
+    "imageURL": "https://static.wikia.nocookie.net/roblox-blox-piece/images/2/2d/ShadowFruit.png"
+  },
+  "Venom": {
+    "price": 3000000,
+    "robux": 2450,
+    "rarity": "mythical",
+    "type": "natural",
+    "awakening": false,
+    "imageURL": "https://static.wikia.nocookie.net/roblox-blox-piece/images/b/b7/VenomFruit.png"
+  },
+  "Control": {
+    "price": 3200000,
+    "robux": 2500,
+    "rarity": "mythical",
+    "type": "natural",
+    "awakening": false,
+    "imageURL": "https://static.wikia.nocookie.net/roblox-blox-piece/images/0/01/ControlFruit.png"
+  },
+  "Spirit": {
+    "price": 3400000,
+    "robux": 2550,
+    "rarity": "mythical",
+    "type": "natural",
+    "awakening": false,
+    "imageURL": "https://static.wikia.nocookie.net/roblox-blox-piece/images/0/02/SpiritFruit.png"
+  },
+  "Dragon": {
+    "price": 3500000,
+    "robux": 2600,
+    "rarity": "mythical",
+    "type": "beast",
+    "awakening": false,
+    "imageURL": "https://static.wikia.nocookie.net/roblox-blox-piece/images/4/43/DragonFruit.png"
+  },
+  "Leopard": {
+    "price": 5000000,
+    "robux": 3000,
+    "rarity": "mythical",
+    "type": "beast",
+    "awakening": false,
+    "imageURL": "https://static.wikia.nocookie.net/roblox-blox-piece/images/8/8c/LeopardFruit.png"
+  },
+  "Kitsune": {
+    "price": 8000000,
+    "robux": 4000,
+    "rarity": "mythical",
+    "type": "beast",
+    "imageURL": "https://static.wikia.nocookie.net/roblox-blox-piece/images/c/c3/KitsuneFruit.png"
+  }
+}

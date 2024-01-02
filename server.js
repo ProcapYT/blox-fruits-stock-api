@@ -2,7 +2,8 @@ const express = require('express');
 const axios = require('axios');
 const cheerio = require('cheerio');
 const cors = require('cors');
-const path = require('path')
+const path = require('path');
+const fs = require('fs').promises;
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -44,6 +45,13 @@ app.get('/api/bloxfruits/stock', async (req, res) => {
     res.status(500).json({ error: 'Internal server error' });
   }
 });
+
+app.get('/api/bloxfruits', async (req, res) => {
+  const jsonData = await fs.readFile(path.join(__dirname, 'data', 'blox.json'))
+  const jsonObj = JSON.parse(jsonData)
+
+  res.json(jsonObj)
+})
 
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'))
